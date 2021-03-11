@@ -1,15 +1,16 @@
 module.exports = {
+  pathPrefix: "/gatsby-i18next-starter",
   siteMetadata: {
-    title: `Gatsby Starter i18next`,
+    title: `Gatsby i18next Starter`,
     author: `Carms Ng`,
-    description: `Gatsby Starter i18next`, 
+    description: `i18next (translation), tailwindcss and styled-components setup`, 
   },
   plugins: [
-    `gatsby-plugin-styled-components`,
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
-    `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

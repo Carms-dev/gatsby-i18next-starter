@@ -1,14 +1,13 @@
 {
-  "name": "gatsby-starter-i18next",
+  "name": "gatsby-i18next-starter",
   "version": "1.0.0",
-  "private": true,
-  "description": "Gatsby Starter i18next using default starter. Tailwindcss & styled components setup included",
+  "private": false,
+  "description": "i18next (translation), tailwindcss and styled-components setup",
   "author": "Carms Ng",
   "keywords": [
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
